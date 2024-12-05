@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 251, 251);
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.netfix-series-display {
+    position: relative; 
+}
+
+.background_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto; 
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.options-layover {
+    position: absolute;
+    left: 50%; 
+    top: 75%; 
+    transform: translate(-50%, -75%); 
+    max-width: 100%; 
+    max-height: 100%;
+    z-index: 2; 
+}
+
+.options-layover {
+    position: absolute;
+    left: 50%; 
+    top: 75%; 
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 15px; 
+    z-index: 2; 
+}
